@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "prettier": {
+    "singleQuote": true
+  },
   "scripts": {
     "test": "jest",
-    "test:dev": "jest --watchAll",
+    "test:dev": "jest --watchAll --coverage",
     "prepare": "husky"
   },
   "keywords": [],
